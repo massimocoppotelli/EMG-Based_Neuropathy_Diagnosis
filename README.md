@@ -46,6 +46,22 @@ In contains the following samples:
 
 Instead of the EMG recording, it contains vectors of 17 features extracted from each EMG sample, that have been used to train a LightGBM classificator.
 
+## Notebooks
+
+### EMG_dataset.ipynb
+Loads the original dataset from EMG Dataset Repository;  
+Performs signal processing on the whole dataset;  
+Extracts feature vectors from the whole dataset;  
+Builds a csv file with all the feature vectors.
+
+### EMG_feature_selection.ipynb
+Uses features_dataset_healthy_vs_neuropathy_8_20_2000_3.csv as a dataset;
+Performs cross validation grid search on LightGBM hyperparameters;
+Performs training and evaluation on 100 differente dataset splittings;
+Performs features selection with IFE and SHIFE algorithms (described in "SHAP-Guided LightGBM Classification of Neuropathic EMG Signals").
+
+
+
 
 
 
