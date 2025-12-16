@@ -28,9 +28,9 @@ It contains the following EMG recordings:
 50 Neuropathy Biceps Brachii  
 
 EMG files are named as follows:  
-EMG _009 _05_ RD_Hea.asc  
-EMG _109 _08_ LD_Myo.asc  
-EMG _359 _55_ RB_Neu.asc  
+EMG _009 \_05_ RD_Hea.asc  
+EMG _109 \_08_ LD_Myo.asc  
+EMG _359 \_55_ RB_Neu.asc  
 
 where the first three digits are a unique identifier of the EMG recording; the second two digits are an identifier of the patient in its group (Healthy, Myopathy or Neuropathy); RD, LD, RB, and LB stand for Right and Left Deltoid and Biceps Brachii; Hea, Myo, and Neu stand for Healthy, Myopathy, and Neuropathy.
 
